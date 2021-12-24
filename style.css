@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  font-size: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.breed{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px 10px;
+  margin: 20px auto;
+  display:block;
+  border-radius: 5px;
+}
+
+.button{
+  background-color: rgb(71, 83, 148);
+  color: white;
+  display: block;
+  padding: 15px 32px;
+  font-size: 25px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.button:hover{
+  background-color: rgb(86, 100, 230);
+}
+
+.button:active{
+  background-color: rgb(16, 25, 100);
+}
+
+.loading{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.loading.show{
+  visibility: visible;
+  opacity: 1;
+  text-align: center;
+}
+
+
+.doggos{
+  align-items: center;
+  justify-items: center;
+  border: 1px solid #666;
+  width: 100%;
+}
+
+.animation{
+  width: 100px;
+  height: 100px;
+  background-color: #0074d9;
+  border-radius: 50%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 400px;
+}
+
